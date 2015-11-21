@@ -1,0 +1,17 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #c0c0ff;
+}
+#wrapper {
+    padding-left: 1em;
+}
+
+#header {
+    
+}
+.max_width {
+    max-width: 1000px;
+}

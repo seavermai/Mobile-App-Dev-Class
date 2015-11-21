@@ -1,0 +1,41 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 7, 2015, 5:59:56 PM
+    Author     : Seaver
+*/
+
+/*.calculator input[type=text] {
+    //font: 10pt/1.5em Arial, sans-serif;
+    width: 111px;
+}*/
+
+/*.calculator input[type=button] {
+    background-color: #dd8080;
+    font: 10pt/1.5em Arial, sans-serif;
+    width: 25px;
+    text-align: center;
+}
+
+.calculator input[type=button]:hover {
+    background-color: #dd9999;
+}
+
+#button_0 {
+    font: 10pt/1.5em Arial, sans-serif;
+    width: 54px;
+}*/
+
+h1 {
+    margin: 0 auto;
+    //width: 960px;
+    //background-color: #dd6060;
+    text-align: center;
+}
+
+/*.header {
+    
+}*/
