@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!--
+myChecklist - Prototype
+v0.01 (Nov 25, 2015)
+Created by Seaver Mai
+-->
+<html>
+    <head>
+        <title>myChecklist - Prototype</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" type="text/css" href="css/mychecklist.css">
+        <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+        
+        <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+        <script type="text/javascript" src="js/mychecklist.js"></script>
+    </head>
+    <body>
+        
+        <!-- Main App View -->
+        <div id="index">
+            <div class="menubar">
+                <p class="menubartext" id="appname_button">myChecklist</p>
+            </div>
+            
+            <div class="content">
+                <div class="list" id="list1">
+                    <p class="listname" id="listname1">ListName</p> 
+                    <p class="numberofelements" id="listnum1">(3)</p>
+                </div>
+                <div class="list" id="list2">
+                    <p class="listname" id="listname2"><a href="#list2">List2</a></p> 
+                    <p class="numberofelements" id="listnum2">(0)</p>
+                </div>
+            </div>
+        </div>
+                
+        <!-- List View -- See Contents of a List -->
+        <!-- Menu Bar -->
+        <div id="listview">
+            <div class="menubar">
+                <p class="menubartext" id="listname_button">ListName (3)</p>
+
+                <div id="search">
+                    <input id="searchbar" type="text" 
+                           value="" placeholder="Search"
+                           size=10 />
+                </div>
+                <p id="options">Options</p>
+            </div>
+
+            <!-- List -->
+            <div class="content">
+                <div class="item" id="item1">
+                    <p class="itemname" id="itemname1">Item1</p> 
+                </div>
+                <div class="item" id="item2">
+                    <p class="itemname" id="itemname2">Item2</p> 
+                </div>
+                <div class="item" id="item3">
+                    <p class="itemname" id="itemname3">Item3</p> 
+                </div>
+            </div>
+        </div>
+        
+        <!--<div id="todo">
+            More to do: <a href="notes.txt" target="_blank" class="todo">notes</a>
+        </div>-->
+        
+        <!--<div id="ayy">
+            ayy lmao
+        </div>-->
+    </body>
+
+</html>

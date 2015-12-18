@@ -1,0 +1,98 @@
+/* 
+    Created on : Nov 29, 2015, 6:38:00 PM
+    Author     : Seaver
+*/
+
+html {
+    margin: 0;
+    padding: 0;
+    background: black;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: white;
+    /*font: 50% Arial, sans-serif;*/
+    font-size: 62.5%;
+    font-family: Arial;
+    font-style: normal;
+}
+
+#menubar {
+    display: table;
+    width: 100%;
+    background-color: #2cb990;
+    
+}
+
+#menubartext {
+    display: table-cell;
+    text-align: left;
+    background-color: lightgreen;
+    width: 100%;
+    padding-left: 0.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
+/*#menubartext:hover {
+    background-color: #3fa43f;
+}*/
+
+/*#options {
+    display: table-cell;
+    text-align: right;
+    background-color: lightblue;
+    width: 20%;
+    padding-right: 0.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
+#options:hover {
+    background-color: #539db5;
+}*/
+
+#content {
+    display: table;
+    width: 100%;
+    background-color: white;
+    
+}
+
+.list:hover {
+    background-color: lightgray;
+}
+
+.listname {
+    display: table-cell;
+    text-align: left;
+    /*background-color: white;*/
+    width: 100%;
+    padding-left: 0.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
+.numberofelements {
+    display: table-cell;
+    text-align: right;
+    /*background-color: lightblue;*/
+    /*width: 20%;*/
+    padding-right: 0.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
+/*#options:hover {
+    background-color: #539db5;
+}*/

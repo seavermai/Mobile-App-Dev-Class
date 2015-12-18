@@ -1,0 +1,8 @@
+To-Do
+
+- App/CSS Layout
+- Button Functionality
+- Parse and save data lists (from file?)
+
+extra
+- tracking previous session
